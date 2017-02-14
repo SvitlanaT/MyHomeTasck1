@@ -4,30 +4,32 @@ package tasck3;
  * @author Света on 13.02.2017.
  */
 public class MethodsTask {
-    public void noInNoOut(){
+    private void noInNoOut(){
         System.out.println("No in no out");
     }
-    public void intInNoOut(int in){
+
+    private void intInNoOut(int in){
         System.out.println("No out, int in = " + in);
     }
-    public int NoInIntOut (){
+
+    private int NoInIntOut(){
         return 7;
     }
-    public int twoIntInOneIntOut(int x, int y){
-        int sum = x + y;
-        return sum;
+
+    private int twoIntInOneIntOut(int x, int y){
+        return x + y;
     }
-    public boolean boInBoOut (boolean t){
+
+    private boolean boInBoOut(boolean t){
         return true;
     }
-    public void twoInNoOut(int x, boolean f){
+
+    private void twoInNoOut(int x, boolean f){
         System.out.println("In = "+ x + " "+ f + " no out");
     }
-    public boolean twoInBoOut (int a, int b){
-        if (a==b){
-            return true;} else {
-            return false;
-        }
+
+    private boolean twoInBoOut(int a, int b){
+        return a == b;
     }
 
     public static void main(String[] args) {

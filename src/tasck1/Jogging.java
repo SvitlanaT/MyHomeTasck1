@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Jogging {
 
-    public void chooseDistance (int myDistance){
+    private void chooseDistance(int myDistance){
 
         switch (myDistance){
             case 2: System.out.println("Your distance is 2 km");

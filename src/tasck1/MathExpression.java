@@ -7,7 +7,7 @@ public class MathExpression {
     private int x;
     private int y;
     private int sum;
-   public void check(int x, int y){
+   private void check(int x, int y){
        sum = x+y;
        if (sum%2==0){
            System.out.println("This number is even");
@@ -31,7 +31,7 @@ public class MathExpression {
        }
    }
 
-   public void print(){
+   private void print(){
        for (int i = 0; i <10 ; i++) {
            System.out.println("I love java");
        }

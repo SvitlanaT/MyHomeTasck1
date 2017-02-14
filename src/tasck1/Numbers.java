@@ -7,14 +7,15 @@ import java.lang.reflect.Array;
  */
 public class Numbers {
     private int i;
-    public void print1(){
+    private void print1(){
         i=1;
         while (i<=10){
             System.out.print(i);
             i++;
         }
     }
-    public void print2(){
+
+    private void print2(){
         System.out.println("\n" +" I've used do while to print this numbers");
         i=1;
         do {
@@ -23,7 +24,7 @@ public class Numbers {
         } while (i<=10);
     }
 
-    public void factorial(){
+    private void factorial(){
         int n=1;
         int product =1;
         if (n==0){
@@ -36,7 +37,8 @@ public class Numbers {
         }
         System.out.println("factorial 5 = " + product);
     }
-    public void loopTacer (){
+
+    private void loopTacer(){
         int tracer = 0;
         while (tracer<2){
             System.out.println("while" + tracer++);
