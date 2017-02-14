@@ -58,6 +58,7 @@ public class ArrayTask {
         test.twoArrays();
         test.changeArray();
         test.copyArray();
+        test.copyArray();
         test.recursArray(7);
 
     }
